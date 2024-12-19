@@ -12,7 +12,7 @@ import "./index.css";
 const router = createBrowserRouter([
     {
         path: "/",
-        element: <h1 className="heading">Hello world</h1>,
+        element: <App />,
         errorElement: <NoPage />
     },
     {
@@ -33,8 +33,11 @@ const router = createBrowserRouter([
 ]);
 createRoot(document.getElementById("root")).render(
     <StrictMode>
-        <RouterProvider router={router} future={{
-        v7_startTransition: true,
-      }}/>
+        <RouterProvider
+            router={router}
+            future={{
+                v7_startTransition: true
+            }}
+        />
     </StrictMode>
 );
