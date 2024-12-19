@@ -33,6 +33,8 @@ const router = createBrowserRouter([
 ]);
 createRoot(document.getElementById("root")).render(
     <StrictMode>
-        <RouterProvider router={router} />
+        <RouterProvider router={router} future={{
+        v7_startTransition: true,
+      }}/>
     </StrictMode>
 );
