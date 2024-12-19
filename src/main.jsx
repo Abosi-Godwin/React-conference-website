@@ -12,7 +12,7 @@ import "./index.css";
 const router = createBrowserRouter([
     {
         path: "/",
-        element: <h1>Hello world</h1>,
+        element: <h1 className="heading">Hello world</h1>,
         errorElement: <NoPage />
     },
     {
