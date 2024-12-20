@@ -992,56 +992,56 @@ export const speakersDatas = [
 
 export const brandLogos = [
     {
-        img: "./src/assets/speakers/speakersCompanies/astro-framework.webp",
+        img: "./speakers/speakersCompanies/astro-framework.webp",
         name: "Astro"
     },
     {
-        img: "./src/assets/speakers/speakersCompanies/cursor.webp",
+        img: "./speakers/speakersCompanies/cursor.webp",
         name: "Cursor"
     },
     {
-        img: "./src/assets/speakers/speakersCompanies/favicon.webp",
+        img: "./speakers/speakersCompanies/favicon.webp",
         name: "Million"
     },
     {
-        img: "./src/assets/speakers/speakersCompanies/Jotai1.webp",
+        img: "./speakers/speakersCompanies/Jotai1.webp",
         name: "Jotai"
     },
     {
-        img: "./src/assets/speakers/speakersCompanies/react testing library.webp",
+        img: "./speakers/speakersCompanies/react testing library.webp",
         name: "React testing library"
     },
     {
-        img: "./src/assets/speakers/speakersCompanies/react.webp",
+        img: "./speakers/speakersCompanies/react.webp",
         name: "React 19"
     },
     {
-        img: "./src/assets/speakers/speakersCompanies/StyleX.webp",
+        img: "./speakers/speakersCompanies/StyleX.webp",
         name: "StyleX"
     },
     {
-        img: "./src/assets/speakers/speakersCompanies/tech logo-nextjs.webp",
+        img: "./speakers/speakersCompanies/tech logo-nextjs.webp",
         name: "NextJs"
     },
     {
-        img: "./src/assets/speakers/speakersCompanies/tech logo_react query short.webp",
+        img: "./speakers/speakersCompanies/tech logo_react query short.webp",
         name: "React query"
     },
     {
-        img: "./src/assets/speakers/speakersCompanies/tech logo_remix-r-on-dark.webp",
+        img: "./speakers/speakersCompanies/tech logo_remix-r-on-dark.webp",
         name: "Remix"
     },
     {
-        img: "./src/assets/speakers/speakersCompanies/zustand 1.webp",
+        img: "./speakers/speakersCompanies/zustand 1.webp",
         name: "Zustand"
     },
     {
-        img: "./src/assets/speakers/speakersCompanies/redux.webp",
+        img: "./speakers/speakersCompanies/redux.webp",
         name: "Redux"
     },
     {
-        img: "./src/assets/speakers/speakersCompanies/react.webp",
+        img: "./speakers/speakersCompanies/react.webp",
         name: "React compiler "
     },
-    { img: "./src/assets/speakers/speakersCompanies/vite.webp", name: "Vite" }
+    { img: "./speakers/speakersCompanies/vite.webp", name: "Vite" }
 ];
