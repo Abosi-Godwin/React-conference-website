@@ -2,11 +2,12 @@ import { useState } from "react";
 import { FaAngleDown, FaAngleUp } from "react-icons/fa6";
 
 export const Faq = ({ questionObject }) => {
-    const [openAnswer, setOpenAnswer] = useState(false);
+    const [openAnswer, setOpenAnswer] = useState(true);
 
     const handleToggle = () => {
         setOpenAnswer(prev => !prev);
     };
+    
     return (
         <div className="p-3 bg-50 m-4 rounded-md">
             <div className="flex gap-4">
