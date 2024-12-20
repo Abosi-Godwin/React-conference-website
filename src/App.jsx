@@ -15,14 +15,9 @@ function App() {
     return (
         <>
            
-                <Nav />
-                <HeroSection />
-         
-           
-
-            <Location />
-            <Testimonials />
-            <Faqs />
+              <h1>
+                Hello world 🌍 
+              </h1>
         </>
     );
 }
