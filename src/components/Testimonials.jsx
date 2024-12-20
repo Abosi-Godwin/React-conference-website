@@ -1,5 +1,5 @@
-import { useEffect, useState } from "react";
 import { TwitterTweetEmbed } from "react-twitter-embed";
+
 const tweetIds = [
     "1733040154661515680",
     "1733036805887246354",

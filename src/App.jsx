@@ -23,7 +23,7 @@ function App() {
             <WorkshopSection />
 
             <Location />
-           { /*<Testimonials />*/}
+           <Testimonials />
              <Faqs /> 
         </>
     );

@@ -26,17 +26,18 @@ Welcome to the official website of the **React Conference Berlin 2024**! This pr
    cd react-conference-website
 
 2. Install dependencies:
-  ```bash
-  npm install
+   ```bash
+   npm install
 
 
 3. Start the development server:
+   ```bash
+   npm run dev
 
-npm run dev
 
-
-4. Open the app in your browser at http://localhost:8000.
-
+4. Open the app in your browser at:
+   ```bash
+   http://localhost:8000.
 
 
 ## Deployment
