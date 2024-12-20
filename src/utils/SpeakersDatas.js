@@ -241,7 +241,7 @@ export const speakersDatas = [
     },
     {
         id: "11",
-        img: "./src/assets/speakers/speakersImgs/elizabet_oliveira.jpg",
+        img: "./speakers/speakersImgs/elizabet_oliveira.jpg",
         topic: "Inspiration",
         name: "Elizabet Oliveira",
         occupation: "Xata, Portugal",
@@ -265,7 +265,7 @@ export const speakersDatas = [
     },
     {
         id: "12",
-        img: "./src/assets/speakers/speakersImgs/Maurice_de_Beijer.jpeg",
+        img: "./speakers/speakersImgs/Maurice_de_Beijer.jpeg",
         topic: "Artificial intelligence",
         name: "Maurice de Beijer",
         title: {
@@ -289,7 +289,7 @@ export const speakersDatas = [
     },
     {
         id: "13",
-        img: "./src/assets/speakers/speakersImgs/elian_van_cutsem.jpg",
+        img: "./speakers/speakersImgs/elian_van_cutsem.jpg",
         topic: "Astro",
         name: "Elian Van Cutsem",
         occupation: "React Bricks, Belgium",
@@ -314,7 +314,7 @@ export const speakersDatas = [
     },
     {
         id: "14",
-        img: "./src/assets/speakers/speakersImgs/Anthony_Fu.jpg",
+        img: "./speakers/speakersImgs/Anthony_Fu.jpg",
         topic: "Code Quality",
         name: "Anthony Fu",
         occupation: "NuxtLabs, France",
@@ -338,7 +338,7 @@ export const speakersDatas = [
     },
     {
         id: "15",
-        img: "./src/assets/speakers/speakersImgs/Steve_Ruiz.jpg",
+        img: "./speakers/speakersImgs/Steve_Ruiz.jpg",
         topic: "Artificial intelligence",
         name: "Steve Ruiz",
         occupation: "tldraw, UK",
@@ -363,7 +363,7 @@ export const speakersDatas = [
 
     {
         id: "16",
-        img: "./src/assets/speakers/speakersImgs/Lenz_Weber-Tronic.jpeg",
+        img: "./speakers/speakersImgs/Lenz_Weber-Tronic.jpeg",
         topic: "Testing",
         name: "Lenz Weber-Tronic",
         occupation: "Apollo GraphQL, Germany",
@@ -387,7 +387,7 @@ export const speakersDatas = [
     },
     {
         id: "17",
-        img: "./src/assets/speakers/speakersImgs/Brad_Westfall.jpg",
+        img: "./speakers/speakersImgs/Brad_Westfall.jpg",
         topic: "Best practices",
         name: "Brad Westfall",
         occupation: "ReactTraining, USA",
@@ -411,7 +411,7 @@ export const speakersDatas = [
     },
     {
         id: "18",
-        img: "./src/assets/speakers/speakersImgs/Artem_Zakharchenko.jpg",
+        img: "./speakers/speakersImgs/Artem_Zakharchenko.jpg",
         topic: "JavaScript",
         name: "Artem Zakharchenko",
         occupation: "Freelancer, Czechia",
@@ -436,7 +436,7 @@ export const speakersDatas = [
     },
     {
         id: "19",
-        img: "./src/assets/speakers/speakersImgs/Richard_Carrigan.jpg",
+        img: "./speakers/speakersImgs/Richard_Carrigan.jpg",
         topic: "Internalization",
         name: "Richard Carrigan",
         occupation: "Microsoft, USA",
@@ -460,7 +460,7 @@ export const speakersDatas = [
     },
     {
         id: "20",
-        img: "./src/assets/speakers/speakersImgs/Dmitry_Kovalenko.jpg",
+        img: "./speakers/speakersImgs/Dmitry_Kovalenko.jpg",
         topic: "Performance",
         name: "Dmitry Kovalenko",
         occupation: "LightSource.ai, Ukraine",
@@ -485,7 +485,7 @@ export const speakersDatas = [
 
     {
         id: "21",
-        img: "./src/assets/speakers/speakersImgs/Giulio_Zausa.jpeg",
+        img: "./speakers/speakersImgs/Giulio_Zausa.jpeg",
         topic: "State management",
         name: "Giulio Zausa",
         occupation: "Flux.ai, Austria",
@@ -509,7 +509,7 @@ export const speakersDatas = [
     },
     {
         id: "22",
-        img: "./src/assets/speakers/speakersImgs/Sylwia_Vargas.jpeg",
+        img: "./speakers/speakersImgs/Sylwia_Vargas.jpeg",
         topic: "Content writing",
         name: "Sylwia Vargas",
         occupation: "Inngest, UK",
@@ -533,7 +533,7 @@ export const speakersDatas = [
     },
     {
         id: "23",
-        img: "./src/assets/speakers/speakersImgs/Siddharth_Kshetrapal.jpg",
+        img: "./speakers/speakersImgs/Siddharth_Kshetrapal.jpg",
         topic: "Accessibility",
         name: "Siddharth Kshetrapal",
         occupation: "GitHub, Netherlands",
@@ -557,7 +557,7 @@ export const speakersDatas = [
     },
     {
         id: "24",
-        img: "./src/assets/speakers/speakersImgs/dora_makszy.jpeg",
+        img: "./speakers/speakersImgs/dora_makszy.jpeg",
         topic: "Design",
         name: "Dora Makszy",
         occupation: "Norway",
@@ -581,7 +581,7 @@ export const speakersDatas = [
     },
     {
         id: "25",
-        img: "./src/assets/speakers/speakersImgs/Will_Klein.jpg",
+        img: "./speakers/speakersImgs/Will_Klein.jpg",
         topic: "Developer experience",
         name: "Will Klein",
         occupation: "Independent Developer, USA",
@@ -605,7 +605,7 @@ export const speakersDatas = [
     },
     {
         id: "26",
-        img: "./src/assets/speakers/speakersImgs/Omri_Lavi.jpeg",
+        img: "./speakers/speakersImgs/Omri_Lavi.jpeg",
         topic: "Tooling",
         name: "Omri Lavi",
         occupation: "monday.com, Israel",
@@ -629,7 +629,7 @@ export const speakersDatas = [
     },
     {
         id: "27",
-        img: "./src/assets/speakers/speakersImgs/Miraan_Tabrez.jpg",
+        img: "./speakers/speakersImgs/Miraan_Tabrez.jpg",
         topic: "Team product",
         name: "Miraan Tabrez",
         occupation: "Hypertune, UK",
@@ -653,7 +653,7 @@ export const speakersDatas = [
     },
     {
         id: "28",
-        img: "./src/assets/speakers/speakersImgs/Mo_Khazali.jpg",
+        img: "./speakers/speakersImgs/Mo_Khazali.jpg",
         topic: "Architecture",
         name: "Mo Khazali",
         occupation: "Theodo UK, UK",
@@ -677,7 +677,7 @@ export const speakersDatas = [
     },
     {
         id: "29",
-        img: "./src/assets/speakers/speakersImgs/Anisha_Malde.jpg",
+        img: "./speakers/speakersImgs/Anisha_Malde.jpg",
         topic: "Architecture",
         name: "Anisha Malde",
         occupation: "UK",
@@ -701,7 +701,7 @@ export const speakersDatas = [
     },
     {
         id: "30",
-        img: "./src/assets/speakers/speakersImgs/Darko_Bozhinovski.jpg",
+        img: "./speakers/speakersImgs/Darko_Bozhinovski.jpg",
         topic: "Web component",
         name: "Darko Bozhinovski",
         occupation: "SuperTokens, Macedonia",
@@ -726,7 +726,7 @@ export const speakersDatas = [
 
     {
         id: "31",
-        img: "./src/assets/speakers/speakersImgs/Yael_Balla.jpg",
+        img: "./speakers/speakersImgs/Yael_Balla.jpg",
         topic: "Performance",
         name: "Yael Balla",
         occupation: "Fijoya, Israel",
@@ -750,7 +750,7 @@ export const speakersDatas = [
     },
     {
         id: "32",
-        img: "./src/assets/speakers/speakersImgs/Mauro_Bartolomeoli.jpg",
+        img: "./speakers/speakersImgs/Mauro_Bartolomeoli.jpg",
         topic: "React Server Component",
         name: "Mauro Bartolomeoli",
         occupation: "Doubleloop S.r.l., Italy",
@@ -774,7 +774,7 @@ export const speakersDatas = [
     },
     {
         id: "33",
-        img: "./src/assets/speakers/speakersImgs/Christopher_Ehrlich.jpg",
+        img: "./speakers/speakersImgs/Christopher_Ehrlich.jpg",
         topic: "Performance",
         name: "Christopher Ehrlich",
         occupation: "Axiom, Austria",
@@ -798,7 +798,7 @@ export const speakersDatas = [
     },
     {
         id: "34",
-        img: "./src/assets/speakers/speakersImgs/Hunor_Márton_Borbély.jpeg",
+        img: "./speakers/speakersImgs/Hunor_Márton_Borbély.jpeg",
         topic: "Animations",
         name: "Hunor Márton Borbély",
         occupation: "Germany",
@@ -822,7 +822,7 @@ export const speakersDatas = [
     },
     {
         id: "35",
-        img: "./src/assets/speakers/speakersImgs/Sweta_Tanwar.jpg",
+        img: "./speakers/speakersImgs/Sweta_Tanwar.jpg",
         topic: "Performance",
         name: "Sweta Tanwar",
         occupation: "Rippling, India",
@@ -846,7 +846,7 @@ export const speakersDatas = [
     },
     {
         id: "36",
-        img: "./src/assets/speakers/speakersImgs/Adrian_Hajdin.jpeg",
+        img: "./speakers/speakersImgs/Adrian_Hajdin.jpeg",
         topic: "React",
         name: "Adrian Hajdin",
         occupation: "JS Mastery, Croatia",
@@ -870,7 +870,7 @@ export const speakersDatas = [
     },
     {
         id: "37",
-        img: "./src/assets/speakers/speakersImgs/Burak_Güneli.jpg",
+        img: "./speakers/speakersImgs/Burak_Güneli.jpg",
         topic: "Performance",
         name: "Burak Güneli",
         occupation: "Uberall, Germany",
@@ -894,7 +894,7 @@ export const speakersDatas = [
     },
     {
         id: "38",
-        img: "./src/assets/speakers/speakersImgs/Ramona_Schwering.jpg",
+        img: "./speakers/speakersImgs/Ramona_Schwering.jpg",
         topic: "Security",
         name: "Ramona Schwering",
         occupation: "Auth0 by Okta, Germany",
@@ -918,7 +918,7 @@ export const speakersDatas = [
     },
     {
         id: "39",
-        img: "./src/assets/speakers/speakersImgs/Daniel_Rios_Pavia.jpg",
+        img: "./speakers/speakersImgs/Daniel_Rios_Pavia.jpg",
         topic: "Framework",
         name: "Daniel Rios Pavia",
         occupation: "Personio, Spain",
@@ -942,7 +942,7 @@ export const speakersDatas = [
     },
     {
         id: "40",
-        img: "./src/assets/speakers/speakersImgs/Sergey_Labuts.jpeg",
+        img: "./speakers/speakersImgs/Sergey_Labuts.jpeg",
         topic: "Best practices",
         name: "Sergey Labuts",
         occupation: "Focus Reactive, Poland",
@@ -966,7 +966,7 @@ export const speakersDatas = [
     },
     {
         id: "41",
-        img: "./src/assets/speakers/speakersImgs/Oleksii_Levzhynskyi.jpg",
+        img: "./speakers/speakersImgs/Oleksii_Levzhynskyi.jpg",
         topic: "Architecture",
         name: "Oleksii Levzhynskyi",
         occupation: "Grammarly, Portugal",
@@ -1014,7 +1014,7 @@ export const brandLogos = [
     {
         img: "./src/assets/speakers/speakersCompanies/react.webp",
         name: "React 19"
-    }, 
+    },
     {
         img: "./src/assets/speakers/speakersCompanies/StyleX.webp",
         name: "StyleX"
