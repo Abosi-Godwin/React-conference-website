@@ -19,11 +19,6 @@ function App() {
                 <HeroSection />
          
            
-                <AboutEvent />
-                <ScheduleSection />
-                <Speakers />
-                <WorkshopSection />
-           
 
             <Location />
             <Testimonials />
