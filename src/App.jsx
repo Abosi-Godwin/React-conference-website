@@ -1,4 +1,4 @@
- import "./App.css";
+import "./App.css";
 import Nav from "./components/Nav.jsx";
 import HeroSection from "./components/heroSection.jsx";
 import AboutEvent from "./components/aboutEvent.jsx";
@@ -14,9 +14,9 @@ import WorkshopSection from "./components/workshopSection.jsx";
 function App() {
     return (
         <>
-            {/* <Nav />*/}
+            {/* <Nav />
             <HeroSection />
-
+*/}
             <AboutEvent />
             <ScheduleSection />
             <Speakers />
