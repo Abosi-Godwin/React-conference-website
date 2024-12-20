@@ -14,15 +14,15 @@ import WorkshopSection from "./components/workshopSection.jsx";
 function App() {
     return (
         <>
-            {/* <Nav />
+            <Nav />
             <HeroSection />
-*/}
+
             <AboutEvent />
             <ScheduleSection />
             <Speakers />
             <WorkshopSection />
 
-            <Location />
+           {/* <Location />*/}
             <Testimonials />
             <Faqs />
         </>
