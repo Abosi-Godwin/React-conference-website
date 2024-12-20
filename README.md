@@ -26,8 +26,8 @@ Welcome to the official website of the **React Conference Berlin 2024**! This pr
    cd react-conference-website
 
 2. Install dependencies:
-
-npm install
+  ```bash
+  npm install
 
 
 3. Start the development server:
