@@ -21,7 +21,7 @@ function Testimonials() {
                 </h2>
             </div>
             <div className="w-full grid grid-cols-1 gap-2 p-5 md:grid-cols-2 ">
-                {tweetIds.map(tweetId => (
+                {/*tweetIds.map(tweetId => (
                     <TwitterTweetEmbed
                         onLoad={function noRefCheck() {}}
                         placeholder={
@@ -40,7 +40,9 @@ function Testimonials() {
                         tweetId={tweetId}
                         key={tweetId}
                     />
-                ))}
+                ))*/
+                  
+                }
             </div>
         </div>
     );
