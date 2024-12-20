@@ -1,7 +1,7 @@
 export const speakersDatas = [
     {
         id: "1",
-        img: "./src/assets/speakers/speakersImgs/Tejas_Kumar.png",
+        img: "./speakers/speakersImgs/Tejas_Kumar.png",
         topic: "Artificial intelligence",
         name: "Tejas Kumar",
         occupation: "Consultant, Germany",
@@ -25,7 +25,7 @@ export const speakersDatas = [
     },
     {
         id: "2",
-        img: "./src/assets/speakers/speakersImgs/Sara_Vieira.jpg",
+        img: "./speakers/speakersImgs/Sara_Vieira.jpg",
         topic: "Games",
         name: "Sara Vieira",
         occupation: "Orama UK",
@@ -49,7 +49,7 @@ export const speakersDatas = [
     },
     {
         id: "3",
-        img: "./src/assets/speakers/speakersImgs/Dominik_Dorfmeister.jpeg",
+        img: "./speakers/speakersImgs/Dominik_Dorfmeister.jpeg",
         topic: "React Query",
         name: "Dominik Dorfmeister",
         occupation: "Adverity",
@@ -73,7 +73,7 @@ export const speakersDatas = [
     },
     {
         id: "4",
-        img: "./src/assets/speakers/speakersImgs/Tapas_Adhikary.jpeg",
+        img: "./speakers/speakersImgs/Tapas_Adhikary.jpeg",
         topic: "React 19",
         name: "Tapas Adhikary",
         occupation: "Creowis Technologies, India",
@@ -97,7 +97,7 @@ export const speakersDatas = [
     },
     {
         id: "5",
-        img: "./src/assets/speakers/speakersImgs/Johannes_Goslar.jpg",
+        img: "./speakers/speakersImgs/Johannes_Goslar.jpg",
         topic: "React 19",
         name: "Johannes Gosler",
         occupation: "Synthesia Germany",
@@ -122,7 +122,7 @@ export const speakersDatas = [
 
     {
         id: "6",
-        img: "./src/assets/speakers/speakersImgs/Aurora_Scharff.jpg",
+        img: "./speakers/speakersImgs/Aurora_Scharff.jpg",
         topic: "React server components",
         name: "Aurora Scharff",
         occupation: "Inmeta, Norway",
@@ -146,7 +146,7 @@ export const speakersDatas = [
     },
     {
         id: "7",
-        img: "./src/assets/speakers/speakersImgs/Naman_Goel.jpg",
+        img: "./speakers/speakersImgs/Naman_Goel.jpg",
         topic: "Stylex",
         name: "Naman Goel",
         occupation: "Meta, USA",
@@ -170,7 +170,7 @@ export const speakersDatas = [
     },
     {
         id: "8",
-        img: "./src/assets/speakers/speakersImgs/Shivay_Lamba.jpg",
+        img: "./speakers/speakersImgs/Shivay_Lamba.jpg",
         topic: "Artificial intelligence",
         name: "Shivay Lamba",
         title: {
@@ -193,7 +193,7 @@ export const speakersDatas = [
     },
     {
         id: "9",
-        img: "./src/assets/speakers/speakersImgs/Carly_Richmond.jpeg",
+        img: "./speakers/speakersImgs/Carly_Richmond.jpeg",
         topic: "Artificial intelligence",
         name: "Carly Richmond",
         occupation: "Elastic, UK",
@@ -217,7 +217,7 @@ export const speakersDatas = [
     },
     {
         id: "10",
-        img: "./src/assets/speakers/speakersImgs/Nicolas_Dubien.jpg",
+        img: "./speakers/speakersImgs/Nicolas_Dubien.jpg",
         topic: "Reactivity",
         name: "Nicolas Dubien",
         occupation: "Pigment, France",

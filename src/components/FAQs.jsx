@@ -1,7 +1,7 @@
 import { useState } from "react";
 
-import { faqDatas } from "../assets/faqDatas.js";
-import {Faq} from "./FAQ.jsx"
+import { faqDatas } from "../utils/faqDatas.js";
+import { Faq } from "./FAQ.jsx";
 const filterOptions = faqDatas.map(data => data.category);
 
 const Faqs = () => {
@@ -14,7 +14,7 @@ const Faqs = () => {
     const questionIndex = filterOptions.findIndex(
         option => option === selectedCategory
     );
-   
+
     return (
         <div className="p-3">
             <div className="py-4">
@@ -48,9 +48,13 @@ const Faqs = () => {
                     ))}
                 </ul>
             </div>
-            
-            <div>{faqDatas[questionIndex].questions.map((questionObject,index) =>
-            <Faq questionObject={questionObject} key={index}/>)}
+
+            <div>
+                {faqDatas[questionIndex].questions.map(
+                    (questionObject, index) => (
+                        <Faq questionObject={questionObject} key={index} />
+                    )
+                )}
             </div>
         </div>
     );

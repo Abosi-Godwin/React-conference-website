@@ -1,4 +1,4 @@
-import { workshopDatas } from "../assets/WorkshopDatas.js";
+import { workshopDatas } from "../utils/WorkshopDatas.js";
 
 const WorkshopSection = () => {
     return (

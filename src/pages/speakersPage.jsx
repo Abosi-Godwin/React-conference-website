@@ -1,12 +1,11 @@
 import { useParams, Link } from "react-router-dom";
-import { speakersDatas } from "../assets/SpeakersDatas.js";
+import { speakersDatas } from "../utils/SpeakersDatas.js";
 import { FaXTwitter, FaGithub, FaGlobe } from "react-icons/fa6";
-const gitIcon = "../src/assets/imgIcons/gitnation.png";
+const gitIcon = "../src/utils/imgIcons/gitnation.png";
 
 const Speaker = () => {
     const userId = useParams();
     const user = speakersDatas.find(speakerId => speakerId.id === userId.id);
-    console.log(user);
     return (
         <div className="p-6 flex flex-col gap-2">
             <div>
@@ -86,7 +85,7 @@ const SocialIcon = ({ socialPlatform }) => {
                 </a>
             );
         default:
-            return null; // Handle unsupported cases
+            return null;
     }
 };
 export default Speaker;

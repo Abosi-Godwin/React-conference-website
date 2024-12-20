@@ -2,26 +2,26 @@ import { Link } from "react-router-dom";
 
 const eventInfos = [
     {
-        img: "/src/assets/imgIcons/employee.png",
+        img: "/imgIcons/employee.png",
         alt: "Speakers Icon",
         title: "Inspiring Speakers",
         desc: "Hear from thought leaders and top developers from the React ecosystem."
     },
 
     {
-        img: "/src/assets/imgIcons/workshop.png",
+        img: "/imgIcons/workshop.png",
         alt: "Workshops Icon",
         title: "Hands-on Workshops",
         desc: " Participate in interactive sessions and deepen your practical React skills."
     },
     {
-        img: "/src/assets/imgIcons/networking.png",
+        img: "/imgIcons/networking.png",
         alt: "Networking Icon",
         title: "Networking Opportunities",
         desc: "Connect with peers, mentors, and potential collaborators from around the globe."
     },
     {
-        img: "/src/assets/imgIcons/advance-technology.png",
+        img: "/imgIcons/advance-technology.png",
         alt: "Trends Icon",
         title: "Cutting-Edge Topics",
         desc: "Discover the latest trends, tools, and best practices in React development."

@@ -1,6 +1,6 @@
 import Speaker from "./Speaker.jsx";
 import BrandSlider from "./brandsSlider.jsx";
-import { speakersDatas, brandLogos } from "../assets/SpeakersDatas.js";
+import { speakersDatas, brandLogos } from "../utils/SpeakersDatas.js";
 
 const Speakers = () => {
     return (

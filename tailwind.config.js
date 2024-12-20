@@ -28,7 +28,7 @@ export default {
                 montserrat: ["Montserrat", "serif"]
             },
             backgroundImage: {
-                "hero-pattern": "url('/src/assets/conferenceImages/image1.jpg')"
+                "hero-pattern": "url('/conferenceImages/image1.jpg')"
             },
             boxShadow: {
                 normal: "1px 1px 8px 0px rgba(11, 8, 27, 0.16);"
