@@ -106,7 +106,7 @@ const WorkshopSection = () => {
                                     </h1>
                                 </div>
                                 <a
-                                    href="#"
+                                    href=""
                                     className={`block py-4 w-full flex
                                 items-center justify-center text-md font-extrabold 
                                uppercase

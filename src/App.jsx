@@ -1,5 +1,4 @@
 import "./App.css";
-
 import Nav from "./components/Nav.jsx";
 import HeroSection from "./components/heroSection.jsx";
 import AboutEvent from "./components/aboutEvent.jsx";
@@ -11,24 +10,24 @@ import Location from "./components/Location.jsx";
 import Speakers from "./components/Speakers.jsx";
 import Testimonials from "./components/Testimonials.jsx";
 import WorkshopSection from "./components/workshopSection.jsx";
+
 function App() {
     return (
         <>
-            <Header>
+           
                 <Nav />
                 <HeroSection />
-            </Header>
-            <Main>
+         
+           
                 <AboutEvent />
                 <ScheduleSection />
                 <Speakers />
                 <WorkshopSection />
-            </Main>
-            <section>
-              <Location/>
-                <Testimonials />
-                <Faqs />
-            </section>
+           
+
+            <Location />
+            <Testimonials />
+            <Faqs />
         </>
     );
 }
