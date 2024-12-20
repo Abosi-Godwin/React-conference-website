@@ -1,4 +1,4 @@
-import "./App.css";
+ import "./App.css";
 import Nav from "./components/Nav.jsx";
 import HeroSection from "./components/heroSection.jsx";
 import AboutEvent from "./components/aboutEvent.jsx";
@@ -14,16 +14,17 @@ import WorkshopSection from "./components/workshopSection.jsx";
 function App() {
     return (
         <>
-           
-              <h1>
-                Hello world 🌍 
-              </h1>
-              
-                <AboutEvent />
-                <ScheduleSection />
-                <Speakers />
-                <WorkshopSection />
-           
+            {/* <Nav />*/}
+            <HeroSection />
+
+            <AboutEvent />
+            <ScheduleSection />
+            <Speakers />
+            <WorkshopSection />
+
+            <Location />
+            <Testimonials />
+            <Faqs />
         </>
     );
 }
