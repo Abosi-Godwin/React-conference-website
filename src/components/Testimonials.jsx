@@ -21,28 +21,13 @@ function Testimonials() {
                 </h2>
             </div>
             <div className="w-full grid grid-cols-1 gap-2 p-5 md:grid-cols-2 ">
-                {/*tweetIds.map(tweetId => (
+                {tweetIds.map(tweetId => (
                     <TwitterTweetEmbed
                         onLoad={function noRefCheck() {}}
-                        placeholder={
-                            <div
-                                style={{
-                                    backgroundColor: "#ecfcff",
-                                    color: "#154764",
-                                    margin: 10,
-                                    padding: 10,
-                                    borderRaduis: "0.4rem"
-                                }}
-                            >
-                                Loading testimonial....
-                            </div>
-                        }
                         tweetId={tweetId}
                         key={tweetId}
                     />
-                ))*/
-                  
-                }
+                ))}
             </div>
         </div>
     );
