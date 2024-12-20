@@ -22,9 +22,9 @@ function App() {
             <Speakers />
             <WorkshopSection />
 
-           {/* <Location />
+            <Location />
             <Testimonials />
-            <Faqs /> */}
+            {/* <Faqs /> */}
         </>
     );
 }
