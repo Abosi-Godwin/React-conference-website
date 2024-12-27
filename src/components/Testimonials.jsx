@@ -24,7 +24,9 @@ function Testimonials() {
               
                
                 {tweetIds.map(tweetId => (
-                    <h1>{tweetId}</h1>
+                    <TwitterTweetEmbed
+  tweetId={tweetId}
+/>
                 ))}
             </div>
         </div>

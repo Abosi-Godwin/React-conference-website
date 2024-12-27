@@ -2,7 +2,7 @@ import { useState } from "react";
 
 import { faqDatas } from "../utils/faqDatas.js";
 import { Faq } from "./FAQ.jsx";
-const filterOptions = faqDatas.map(data => data.category);
+const categories = faqDatas.map(data => data.category);
 
 const Faqs = () => {
     const [selectedCategory, setSelectedCategory] =
@@ -11,7 +11,7 @@ const Faqs = () => {
     const handleCategoryChange = category => {
         setSelectedCategory(category);
     };
-    const questionIndex = filterOptions.findIndex(
+    const questionIndex = categories.findIndex(
         option => option === selectedCategory
     );
 
@@ -28,10 +28,9 @@ const Faqs = () => {
             <div>
                 <h1 className="font-semibold">Filter related questions:</h1>
                 <ul
-                    className="flex wrap gap-3 overflow-auto no-scrollbar p-3 border-2
-                border-500 rounded-md scrool"
+                    className="flex wrap gap-3 overflow-auto no-scrollbar p-3 rounded-md scrool"
                 >
-                    {filterOptions.map(option => (
+                    {categories.map(option => (
                         <li
                             className={`p-2 rounded-md whitespace-nowrap
                             
