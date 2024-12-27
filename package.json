@@ -9,9 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@babel/plugin-transform-runtime": "^7.25.9",
-    "@babel/runtime": "^7.26.0",
-    "@tailwindcss/line-clamp": "^0.4.4",
+    "@vercel/analytics": "^1.4.1",
+    "@vercel/speed-insights": "^1.1.0",
     "calendar-link": "^2.7.0",
     "leaflet": "^1.9.4",
     "moment": "^2.30.1",
@@ -24,9 +23,6 @@
     "react-twitter-embed": "^4.0.4"
   },
   "devDependencies": {
-    "@babel/core": "^7.26.0",
-    "@babel/preset-env": "^7.26.0",
-    "@rollup/plugin-babel": "^6.0.4",
     "@types/react": "^18.3.11",
     "@types/react-dom": "^18.3.1",
     "@vitejs/plugin-react": "^4.3.3",

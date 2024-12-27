@@ -10,10 +10,12 @@ import Location from "./components/Location.jsx";
 import Speakers from "./components/Speakers.jsx";
 import Testimonials from "./components/Testimonials.jsx";
 import WorkshopSection from "./components/workshopSection.jsx";
-
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react"
 function App() {
     return (
         <>
+            <Analytics />
             <Nav />
             <HeroSection />
 
@@ -23,8 +25,9 @@ function App() {
             <WorkshopSection />
 
             <Location />
-           <Testimonials />
-             <Faqs /> 
+            <Testimonials />
+            <Faqs />
+            <SpeedInsights/>
         </>
     );
 }

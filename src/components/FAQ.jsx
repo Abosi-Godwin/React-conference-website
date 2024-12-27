@@ -7,10 +7,10 @@ export const Faq = ({ questionObject }) => {
     const handleToggle = () => {
         setOpenAnswer(prev => !prev);
     };
-    
+
     return (
         <div className="p-3 bg-50 m-4 rounded-md">
-            <div className="flex gap-4">
+            <div className="flex gap-4 py-2">
                 <div className="question">
                     <h1 className="font-semibold">{questionObject.question}</h1>
                 </div>
