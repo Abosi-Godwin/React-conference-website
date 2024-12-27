@@ -1,4 +1,4 @@
-import { defineConfig } from "vite";
+/*import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import { babel } from "@rollup/plugin-babel";
 export default defineConfig({
@@ -16,4 +16,24 @@ export default defineConfig({
             ]
         }
     }
+});*/
+
+
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+import { babel } from '@rollup/plugin-babel';
+
+export default defineConfig({
+  plugins: [
+    react(),
+    babel({
+      babelHelpers: 'runtime', // Ensure runtime helpers are used
+      extensions: ['.js', '.jsx', '.ts', '.tsx'], // Add file extensions to process
+      exclude: 'node_modules/**',
+    }),
+  ],
+  build: {
+    outDir: 'dist',
+    target: 'esnext', // Use modern JS output for Vercel compatibility
+  },
 });
